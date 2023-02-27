@@ -1,4 +1,5 @@
 import { Button } from './Button/Button';
+import { Loader } from './Loader/Loader';
 export function App() {
   return (
     <div
@@ -12,6 +13,7 @@ export function App() {
     // }}
     >
       <Button />
+      <Loader />
     </div>
   );
 }
