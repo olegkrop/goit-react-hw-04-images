@@ -20,7 +20,6 @@ export class Searchbar extends Component {
     }
     this.props.onSubmit(this.state.search);
     this.setState({ search: '' });
-    console.log(this);
   };
 
   render() {
@@ -30,7 +29,6 @@ export class Searchbar extends Component {
           <button type="submit" className={style.SearchForm__button}>
             <IoMdSearch className={style.SearchForm__button__icon} />
           </button>
-
           <input
             className={style.SearchForm__input}
             type="text"
@@ -50,5 +48,3 @@ Searchbar.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   searchQuery: PropTypes.string,
 };
-
-// export default Searchbar;

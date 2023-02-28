@@ -107,7 +107,7 @@ export class App extends Component {
           images={this.state.images}
           onImageItemClick={this.toggleModal}
         />
-        {!hasImages && 'Enter search word'}
+        {!hasImages && 'Please enter a search word'}
         {hasImages && hasMoreImages && status === Status.SUCCESS && (
           <Button onClick={this.changePage} />
         )}
@@ -116,5 +116,3 @@ export class App extends Component {
     );
   }
 }
-
-// export default App;
