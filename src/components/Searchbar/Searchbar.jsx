@@ -20,6 +20,7 @@ export class Searchbar extends Component {
     }
     this.props.onSubmit(this.state.search);
     this.setState({ search: '' });
+    console.log(this);
   };
 
   render() {
@@ -35,7 +36,7 @@ export class Searchbar extends Component {
             type="text"
             autoComplete="off"
             autoFocus
-            placeholder={this.props.searchQuery || 'Search images and photos'}
+            placeholder={'Search images and photos'}
             value={this.state.search}
             onChange={this.handleInputChange}
           />
