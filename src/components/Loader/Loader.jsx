@@ -3,7 +3,7 @@ import style from './Loader.module.css';
 
 export function Loader() {
   return (
-    <div className={style.loader__wrap}>
+    <div className={style.loader}>
       <RotatingLines
         strokeColor="grey"
         strokeWidth="5"

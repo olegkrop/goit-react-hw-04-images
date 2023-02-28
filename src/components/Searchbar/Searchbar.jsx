@@ -3,7 +3,7 @@ import { IoMdSearch } from 'react-icons/io';
 import PropTypes from 'prop-types';
 import style from './Searchbar.module.css';
 
-class Searchbar extends Component {
+export class Searchbar extends Component {
   state = {
     search: '',
   };
@@ -50,4 +50,4 @@ Searchbar.propTypes = {
   searchQuery: PropTypes.string,
 };
 
-export default Searchbar;
+// export default Searchbar;
