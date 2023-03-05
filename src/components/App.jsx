@@ -4,7 +4,7 @@ import Button from './Button/Button';
 import Loader from './Loader/Loader';
 import { Searchbar } from './Searchbar/Searchbar';
 import ImageGallery from './ImageGallery/ImageGallery';
-import { Modal } from './Modal/Modal';
+import Modal from './Modal/Modal';
 import style from './App.module.css';
 
 const KEY = '33348757-d3bd4442be84b253a20cc414a';
